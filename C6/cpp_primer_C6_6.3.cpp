@@ -15,6 +15,8 @@ int main()
 
     while (cin >> input)
         cout << "Factory - " << input << " : " << fact(input) << endl;
+
+    return 0;
 }
 
 int fact(int input)
